@@ -1,0 +1,11 @@
+[package]
+name = "enum-iter"
+version = "0.1.0"
+authors = ["cbreeden <github@u.breeden.cc>"]
+
+[dependencies]
+syn = "0.10.5"
+quote = "0.3.10"
+
+[lib]
+proc-macro = true
